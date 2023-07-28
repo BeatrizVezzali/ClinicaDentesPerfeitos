@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link href="Estilo.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="Clínica de dentista logo.png">
+</head>
+<body>
+    <header class="cabecalho">
+    <img src="Clínica de dentista logo.png" alt="Logo" width="100px">
+    <div class="fonteTitulo">
+    <h1>Clínica Dentes Perfeitos</h1>
+    </div>
+    </header>
+    <nav class="menu">
+        <a href="Index.html" class="formataLink">Início</a>
+        <a href="Serviços.html" class="formataLink">Nossos serviços</a>
+        <a href="Agendamento.html" class="formataLink">Agende a sua consulta aqui</a>
+    </nav>
+    <br>
+    <input type="text" id="txtBusca" placeholder="Unidades mais próximas">
+    <button>Buscar</button>
+    <br>
+    <div class="fonteTitulo">
+    <h3>Preencha esses campos para agendar uma consulta</h3>
+    </div>
+    <form method="post">
+        <p>
+            <label for="Nome">Nome:</label>
+            <input type="text">
+        </p>
+
+        <p>
+            <label for="Telefone">Telefone:</label>
+            <input type="tel">
+        </p>
+
+        <p>
+            <label for="Unidade">Selecione a unidade de atendimento:</label>
+            <select name="Unidades de atendimento">
+                <option value="SP">Unidade 1-SP</option>
+                <option value="RJ">Unidade 2-RJ</option>
+                <option value="MG">Unidade 3-MG</option>
+                <option value="RS">Unidade 4-RS</option>
+                <option value="ES">Unidade 5-ES</option>
+                <option value="GO">Unidade 6-GO</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="Data consulta">Qual é o dia da consulta?</label>
+            <input type="date">
+        </p>
+
+        <p>
+            <label for="Horário">Horário:</label>
+            <input type="time">
+        </p>
+
+        <p>
+            <label for="Email">Email:</label>
+            <input type="email">
+        </p>
+
+    </form>
+
+    <p>
+        <a href="Sucesso.html"><button>Agendar</button></a>
+    </p>
+    <footer class="footer">
+        <div>
+            <h3>Redes sociais</h3>
+            <p>Facebook: Clínica Dentes Perfeitos </p>
+            <p>Instagram: @clinicadentesperfeitosoficial</p>
+            <p>Youtube: Dentes Perfeitos.dentistas</p>
+        </div>
+    
+        <div>
+            <h3>
+                Contato
+            </h3>
+            <p>Email: clinicadentesperfeitos@mail.com.br</p>
+            <p>Telefone 1: 343434343 </p>
+            <p>Telefone 2: 677676767 </p>
+           </div>
+    </footer>
+</body>
+</html>
